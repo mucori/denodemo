@@ -1,0 +1,20 @@
+// fill the api keys and save as config.js
+
+export const API_WEATHER = {
+    OpenWeather: {
+        APIKEY: 'get a key at https://home.openweathermap.org/',
+        APIURL: 'api.openweathermap.org/data/2.5/weather',
+    }
+};
+
+export const API_NEWS = {
+    NewsApi: {
+        APIKEY: 'get a key at https://newsapi.org/',
+        APIURL: 'newsapi.org/v2/everything',
+    }
+};
+
+export const LANG = 'es';
+export const UNITS = 'metric';
+export const CITY = 'Málaga';
+export const PORT = 5000;
